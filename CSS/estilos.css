@@ -1,0 +1,148 @@
+html {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+nav {
+    background: linear-gradient(180deg, #000000 0%, #494848 100%);
+}
+
+.logo_img {
+    width: 20%;
+}
+
+a {
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover {
+    color: black;
+    
+}
+
+h1 {
+   font-family:  'Fira Sans', sans-serif; 
+}
+
+h4 {
+    font-family:  'Fira Sans', sans-serif;
+}
+
+p {
+    font-family:  'Fira Sans', sans-serif;
+    font-size: 18px;
+    
+}
+
+button {
+    font-family:  'Fira Sans', sans-serif;
+}
+
+input {
+    font-family:  'Fira Sans', sans-serif;
+}
+
+label {
+    font-family:  'Fira Sans', sans-serif;
+}
+
+.botonHome {
+    color: white;
+}
+
+.cartelContenido {
+    text-align: center;
+}
+
+.cajaRoja {
+    background-color: #FF6B6B;
+}
+
+footer {background-color: #575757;}
+
+.color-footer {
+    color: white;
+}
+
+.foto_1 {
+    animation-name: entradaFotos ;
+    animation-duration: 2s;
+}
+
+.foto_2 {
+    animation-name: entradaFotos_left-right;
+    animation-duration: 2s;
+    
+}
+
+.foto_1_sobreWalt {
+    animation-name: entradaFotos_left-right;
+    animation-duration: 2s;
+}
+
+.foto_1_sobreWalt_img {
+border-radius: 64px;
+
+}
+
+.imagen-3-sobreWalt-img {
+    border-radius: 54px;
+}
+
+.imagenes-galeria {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.imagenes-galeria:hover {
+    transform: scale(110%);
+
+}
+
+.txtVerCv {
+    animation-name:escalaAnimacion ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.caja {
+    width: 100%;
+    ;
+    background-color:#FF6B6B ;
+    border-radius: 50px;
+}
+
+.formulario-css {
+    background-color: #575757;
+
+}
+
+/***************************************************************
+****************************************************************
+*************************ANIMACIONES****************************
+****************************************************************
+***************************************************************/
+
+@keyframes entradaFotos {
+    0% {transform: translateX(-700px);}
+    100% {transform: translateX(0px);}
+    
+}
+
+@keyframes entradaFotos_left-right {
+    0% {transform: translateX(700px);}
+    100% {transform: 0px;}
+
+}
+
+@keyframes escalaAnimacion {
+    0%{transform: scale(100%);}
+    50% {transform: scale(110%);}
+    100%{transform: scale(100%);}
+
+}
+

@@ -1,0 +1,16 @@
+.header {
+    background:linear-gradient(#00aeac, #077977);
+}
+
+.header2 {
+    background-color: #069291;
+}
+
+.slider {
+    height: 300px;
+    background: linear-gradient(-110deg, #93859c, #5c6187, #636c8d);
+}
+
+.footer {
+    background: linear-gradient(grey, black);
+}

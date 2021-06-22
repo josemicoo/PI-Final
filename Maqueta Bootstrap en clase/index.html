@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <header class="container-fluid header p-3">
+        <div class="container">
+
+            <!--PROPEIDADES-->
+            <div class="header2 container-fluid p-3">
+   
+            
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+                    <!--LOGO-->
+                  <a class="navbar-brand" href="#">
+                      <h1 class=" text-white">pd2</h1>
+                    </a>
+
+                    <!--btn hamburger-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <!--ICONO-->  <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!--menu de na-->
+                  <div class="collapse navbar-collapse d flex justify-content-end" id="navbarNav">
+                      <!--NAVBAR - NAV ES LA LISTA ENTERA-->
+                    <ul class="navbar-nav">
+                    
+                     <!--NAVBAR - ITEM ES EL NOMBRE-->
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+
+                      <!--NAVBAR - ACTIVE ES EL NOMBRE EN EL QUE ESTA EL USUARIO-->
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                            <!--NAVBAR - DISABLED ES LA SECCION QUE NO FUNCIONA -->
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+        </header>
+
+  
+                
+    <!--SLIDER-->
+   
+    <!--MENU DE INICADORES - INFRERIOR -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+    <!--CONTENIDO DEL CAROUSEL-->
+
+  <div class="carousel-inner">
+      <!-- ITEM ES LO QUE SE VE EN EL SLIDE-->
+    <div class="carousel-item active">
+      <img src="https://http2.mlstatic.com/D_NQ_853786-MLA46247538647_062021-OO.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://http2.mlstatic.com/D_NQ_853786-MLA46247538647_062021-OO.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://http2.mlstatic.com/D_NQ_726980-MLA46363591257_062021-OO.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+  <!--BOTONES-->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--CAPTION EN BOOTSTRAP: CAPTION= TXT POR ENCIMA-->
+
+<!--FIN-->
+
+    <!--contenido-->
+
+    <div class="container-fluid content">
+        <div class="container mt-5">
+            <div class="row">
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="noticia">
+                        <figure class="imgNoti text-center">
+                            <img class="img-fluid center" src="https://images.ole.com.ar/2021/06/08/-ziw7PfVM_320x210__2.jpg#1623176627991" alt="">
+                        </figure>
+                        <div class="contentNoti">
+
+                            <h3 class="fs-1">Titulo</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Nesciunt quos similique 
+                                numquam! Eligendi harum mollitia nobis! 
+                                Aspernatur eum voluptatem expedita ducimus? 
+                                Mollitia ipsa aliquid nisi hic sunt consectetur 
+                                dicta veniam?</p>
+                        </div>
+                </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="noticia">
+                    <figure class="imgNoti text-center">
+                        <img src="https://images.ole.com.ar/2021/06/08/-ziw7PfVM_320x210__2.jpg#1623176627991" alt="">
+                    </figure>
+                    <div class="contentNoti">
+
+                        <h3 class="fs-1">Titulo</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Nesciunt quos similique 
+                            numquam! Eligendi harum mollitia nobis! 
+                            Aspernatur eum voluptatem expedita ducimus? 
+                            Mollitia ipsa aliquid nisi hic sunt consectetur 
+                            dicta veniam?</p>
+                    </div>
+            </div>
+             </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+
+                    <div class="noticia">
+                        <figure class="imgNoti text-center">
+                            <img src="https://images.ole.com.ar/2021/06/08/-ziw7PfVM_320x210__2.jpg#1623176627991" alt="">
+                        </figure>
+                        <div class="contentNoti">
+
+                            <h3 class="fs-1">Titulo</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Nesciunt quos similique 
+                                numquam! Eligendi harum mollitia nobis! 
+                                Aspernatur eum voluptatem expedita ducimus? 
+                                Mollitia ipsa aliquid nisi hic sunt consectetur 
+                                dicta veniam?</p>
+                        </div>
+                </div>
+
+                
+            </div>
+
+            <div class="col-12 bg-secondary p-5 rounded mt-5">
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--MODAL-->
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+    <!--FIN MODAL-->
+
+
+
+    <!--FORMULARIO-->
+
+<div class="container">
+    <form action="" method="post" class="w-50 my-5">
+
+    <div class="mb-3">
+        <label for="campoEmail" class="form-label">Email address</label>
+        <input name="nombre" type="text" class="form-control" id="campoEmail" placeholder="Nombre y apellido">
+          </div>
+
+      <label for="campoEmail" class="form-label">Email address</label>
+      <input name="email" type="email" class="form-control" id="campoEmail" placeholder="name@example.com">
+     </div>
+
+
+        <label for="campoMensaje" class="form-label">Example textarea</label>
+        <textarea name="mensaje" class="form-control" id="campoMensaje" rows="3"></textarea>
+      
+
+      <hr>
+
+      <input type="submit" name="enviar" class="btn btn-sucess">
+    
+    </form>
+
+</div>
+
+
+
+    <!--FIN FORMULARIO-->
+    <footer class="container-fluid footer mt-5">
+        <div class="container">
+            <p class="text-center fs-6 p-5 text-white">
+                &copy;2021 - Desarrollado por <a href="">mi</a>
+            </p>
+        </div>
+    </footer>
+   
+   
+   
+   
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
