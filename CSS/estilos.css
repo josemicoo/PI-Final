@@ -2,10 +2,16 @@ html {
     font-family: 'Fira Sans', sans-serif;
 }
 
+.logo_contenedor {
+    display: flex;
+    justify-content: center;
+}
 
 nav {
     background: linear-gradient(180deg, #000000 0%, #494848 100%);
+
 }
+
 
 .logo_img {
     width: 20%;
@@ -146,3 +152,14 @@ border-radius: 64px;
 
 }
 
+/*QUERIS RESPONSIVE*/
+
+/*Display Chicos (0-560px) */
+
+@media screen and (min-width: 0) and (max-width: 560px) {
+    .logo_img {
+        width: 40%;
+        display: flex;
+        align-content: center;
+    }
+}
