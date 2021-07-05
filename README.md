@@ -21,8 +21,7 @@
 
    <ul>
         <li>Tipografia: Fira Sans</li>
-        <li>Colores principales
+        <li style="margin-top=20px">Colores principales
         <img src="https://github.com/josemicoo/pi-final/blob/main/Images/paleta.png">
-        </li>
-        <li><a href="https://github.com/josemicoo/pi-final/tree/main/Screens">Screens Sitio Final</a></li>
+        </li>  
     </ul> 
