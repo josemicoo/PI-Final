@@ -12,6 +12,6 @@
 
 <h1>Más información</h1>
     <ul>
-        <li><a href="https://www.netlify.com/" targer="_blank">Host</a></li>
+        <li><a href="https://www.netlify.com/" target="_blank">Host</a></li>
         <li><a href="https://getbootstrap.com/">Libreria CSS</a></li>
     </ul> 
