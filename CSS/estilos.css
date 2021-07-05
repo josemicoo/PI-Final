@@ -219,7 +219,7 @@ border-radius: 64px;
 
 }
 
-@media screen and (min-width: 560px) and (max-width: 992px) {
+@media (min-width: @screen-md-min) {
     .logo_img {
         width: 40%;
         display: flex;
