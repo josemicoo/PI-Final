@@ -16,3 +16,13 @@
         <li><a href="https://getbootstrap.com/">Libreria CSS</a></li>
         <li><a href="https://github.com/josemicoo/pi-final/tree/main/Screens">Screens Sitio Final</a></li>
     </ul> 
+
+<h1>Guia de Estilos </h1>
+
+   <ul>
+        <li>Tipografia: Fira Sans</li>
+        <li>Colores principales
+        <img src="https://github.com/josemicoo/pi-final/blob/main/Images/paleta.png">
+        </li>
+        <li><a href="https://github.com/josemicoo/pi-final/tree/main/Screens">Screens Sitio Final</a></li>
+    </ul> 
